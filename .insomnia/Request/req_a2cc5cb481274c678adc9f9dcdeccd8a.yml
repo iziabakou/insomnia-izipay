@@ -1,0 +1,25 @@
+_id: req_a2cc5cb481274c678adc9f9dcdeccd8a
+type: Request
+parentId: fld_b8d9aae2bf294ef8b2a8655fdbd13ed5
+modified: 1655325387540
+created: 1655289387064
+url: " izipay.dev/api/cryptos/2"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b89433400bdf4346b70a4b423e492fb8
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1655056172416.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

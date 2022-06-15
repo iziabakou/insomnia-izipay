@@ -1,0 +1,46 @@
+_id: req_121b5aebf45245e4a0fd9c67128f2f48
+type: Request
+parentId: fld_0b29b29491614bcc8c4e816df1f3eff4
+modified: 1655328054260
+created: 1655317352042
+url: " izipay.dev/api/register"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+            "firstname": "Geres",
+            "lastname": "HOUNSOU",
+            "password": "P@ssw0rd",
+            "email": "geres@izichange.com",
+            "email_verified_at": "",
+            "phone": "(229)97784924",
+            "phone_verified_at": "",
+            "country_code": "BJ",
+            "address": "Calavi",
+            "biography": "",
+            "kyc_ok": "",
+            "last_seen": "",
+            "status": ""
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d26b0962286a40168f0b10035c84bed7
+  - id: pair_62e11c61c2624a92a5dcb4eb8f4a3761
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1655290261549.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

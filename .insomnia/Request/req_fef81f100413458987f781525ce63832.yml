@@ -1,0 +1,35 @@
+_id: req_fef81f100413458987f781525ce63832
+type: Request
+parentId: fld_43a630c2986e4707b8dea1950dbe8246
+modified: 1655332534408
+created: 1655297569912
+url: " izipay.dev/api/wallets"
+name: wallets-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id": 1,
+    	"crypto_id": 1,
+    	"balance":0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d26b0962286a40168f0b10035c84bed7
+  - id: pair_62e11c61c2624a92a5dcb4eb8f4a3761
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1655297549103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

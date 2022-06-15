@@ -1,0 +1,31 @@
+_id: req_630d06d9f2814ef79fb84022c266718c
+type: Request
+parentId: wrk_bc4df9248ea942c4ba733c0ec895979b
+modified: 1655282999475
+created: 1653468561358
+url: " izipay.dev/api/token"
+name: Login
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_96ad22fc00f04c89822505e325ce2544
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_b102bddc129447e893480ad836e1d70d
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1653468561359
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

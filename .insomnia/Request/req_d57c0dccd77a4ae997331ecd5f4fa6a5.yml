@@ -1,0 +1,48 @@
+_id: req_d57c0dccd77a4ae997331ecd5f4fa6a5
+type: Request
+parentId: fld_b8d9aae2bf294ef8b2a8655fdbd13ed5
+modified: 1655317380092
+created: 1655290132628
+url: " izipay.dev/api/cryptos/2"
+name: update
+description: |-
+  
+  ========== Full request body==============
+  {
+  "name":"Bitcoin",
+  "code":"BTC",
+  "symbol":"₿",
+  "rate":21000,
+  "dc_fixed":0,
+  "dc_percent":0,
+  "wc_fixed":0,
+  "wc_percent":0,
+  "image":"",
+  "status":""
+  }
+method: PUT
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_885058a9bfc64ed792c281bc07782e65
+      name: name
+      value: BTC
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_a99c65854f9844b0b3c3aaba149cc4fc
+  - id: pair_678a656a9e41475580a14dc02ade491b
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1653922164518.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

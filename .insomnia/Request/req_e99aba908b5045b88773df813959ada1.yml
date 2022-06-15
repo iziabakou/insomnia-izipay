@@ -1,0 +1,54 @@
+_id: req_e99aba908b5045b88773df813959ada1
+type: Request
+parentId: fld_b8d9aae2bf294ef8b2a8655fdbd13ed5
+modified: 1655328147710
+created: 1655283253232
+url: " izipay.dev/api/cryptos"
+name: create
+description: |-
+  
+  ========== Full request body==============
+  {
+  "name":"Bitcoin",
+  "code":"BTC",
+  "symbol":"₿",
+  "rate":21000,
+  "dc_fixed":0,
+  "dc_percent":0,
+  "wc_fixed":0,
+  "wc_percent":0,
+  "image":"",
+  "status":""
+  }
+method: POST
+body:
+  mimeType: application/json
+  text: |-2
+     {
+                "name": "DOGE COIN",
+                "code": "DOGE",
+                "symbol": "Ð",
+                "rate": 0.086,
+                "dc_fixed": 0,
+                "dc_percent": 0,
+                "wc_fixed": 0,
+                "wc_percent": 0
+            }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a99c65854f9844b0b3c3aaba149cc4fc
+  - id: pair_678a656a9e41475580a14dc02ade491b
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1654375767677.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
